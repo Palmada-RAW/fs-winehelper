@@ -15,8 +15,6 @@ sudo apt install dos2unix -y
 sudo rm Build.sh
 sudo rm NS-Build.sh
 
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Build. # TMP
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/NS-Build.sh # TMP
 sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/NS-Build.sh
 
 sudo rm Build.sh
