@@ -89,8 +89,7 @@ configure_FS_4() {
     pwd
     sleep 5
     sudo rm -f dedicatedServer.xml
-    sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/dedicatedServer.xml #TMP
-    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/dedicatedServer.xml
+    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/dedicatedServer.xml
 
     sleep 2
     echo "Done."
@@ -100,8 +99,7 @@ configure_FS_4() {
 start_server5() {
     sleep 5
     pwd
-    sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/NS-Run-Dedicated-Server.sh
-    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/NS-Run-Dedicated-Server.sh
+    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NS-Run-Dedicated-Server.sh
 
     dos2unix NS-Run-Dedicated-Server.sh
     sudo chmod +x NS-Run-Dedicated-Server.sh
@@ -133,11 +131,10 @@ echo ""
 
 cd ..
 
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Update.sh #TMP
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/NS-Update.sh #TMP
-sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/NS-Update.sh
+sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NS-Update.sh
 
 sudo rm Update.sh
+sudo rm NS-Update.sh
 
 echo ""
 
@@ -249,8 +246,7 @@ sleep 1
 echo 0%
 echo "Downloading And Installing.."
 
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Hello_Wine.7z #TMP
-sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/Hello_Wine.7z
+sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NeoCircuit-Studios/Hello_Wine.7z
 echo ""
 sleep 1
 

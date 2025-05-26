@@ -60,21 +60,12 @@ Update_Scripts() {
     sudo rm Update.sh
     sudo rm NS-Update.sh
 
-
-    sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Update.sh
-    sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/NS-Update.sh
-    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/NS-Update.sh
-    sudo rm Update.sh
-
+    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NS-Update.sh
+    
     dos2unix NS-Update.sh
     sudo chmod +x NS-Update.sh
-    sudo NS-Update.sh
-
-    ##tmp
-
-    dos2unix Update.sh
-    sudo chmod +x Update.sh
-    sudo Update.sh
+    sudo ./NS-Update.sh
+    pwd
 }
 
 
@@ -105,9 +96,7 @@ echo ""
 
 cd ..
 
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Update.sh #TMP
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/NS-Update.sh #TMP
-sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/NS-Update.sh
+sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NS-Update.sh
 
 sudo rm Update.sh
 
@@ -221,8 +210,7 @@ sleep 1
 echo 0%
 echo "Downloading And Installing.."
 
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Hello_Wine.7z #TMP
-sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/Hello_Wine.7z
+sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NeoCircuit-Studios/Hello_Wine.7z
 echo ""
 sleep 1
 

@@ -15,20 +15,12 @@ echo ""
 echo "Updating..."
 
 Update_Scripts() {
-    sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Update.sh
-    sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/NS-Update. #TMP
-    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/NS-Update.sh
+    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NS-Update.sh
     sudo rm Update.sh
 
     dos2unix NS-Update.sh
     sudo chmod +x NS-Update.sh
-    sudo NS-Update.sh
-
-    ##tmp
-
-    dos2unix Update.sh
-    sudo chmod +x Update.sh
-    sudo Update.sh
+    sudo ./NS-Update.sh
 }
 
 Update_Scripts

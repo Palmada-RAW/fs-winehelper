@@ -145,20 +145,11 @@ Update_Scripts() {
     sudo rm NS-Update.sh
 
 
-    sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Update.sh
-    sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/NS-Update.sh
-    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/NS-Update.sh
-    sudo rm Update.sh
+    sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NS-Update.sh
 
     dos2unix NS-Update.sh
     sudo chmod +x NS-Update.sh
-    sudo NS-Update.sh
-
-    ##tmp
-
-    dos2unix Update.sh
-    sudo chmod +x Update.sh
-    sudo Update.sh
+    sudo ./NS-Update.sh
     pwd
 }
 
@@ -194,17 +185,12 @@ download_scripts() {
 echo "downloading NS Stuff.."
 echo ""
 
-#TMP
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/install-configure-FS-from-source.sh
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/install-configure-FS.sh
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Just-Install-Wine.sh
-sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/Install-FS-Cdrom.sh
 # new 
 
-sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/install-configure-FS-from-source.sh
-sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/install-configure-FS.sh
-sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/Just-Install-Wine.sh
-sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/Install-FS-Cdrom.sh
+sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NeoCircuit-Studios/install-configure-FS-from-source.sh
+sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NeoCircuit-Studios/install-configure-FS.sh
+sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NeoCircuit-Studios/Just-Install-Wine.sh
+sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NeoCircuit-Studios/Install-FS-Cdrom.sh
 
 echo 100%
 echo ""
@@ -267,8 +253,8 @@ echo "-----------------------------------------"
 run_and_make_server_Short() {
   pwd
   echo "downloading..."
-  sudo wget https://github.com/NeoCircuit-Studios/wine/releases/download/sys/NS-Run-Dedicated-Server.sh
-  sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/releases/download/sys/NS-Run-Dedicated-Server.sh
+
+  sudo wget https://github.com/NeoCircuit-Studios/fs-winehelper/blob/main/NS-Run-Dedicated-Server.sh
   
   echo "Making.."
   sleep 1
