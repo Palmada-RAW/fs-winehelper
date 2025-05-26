@@ -23,7 +23,7 @@
 
    ###1. Click this link to download the script.
 
-   Download `NS-Build.sh` in Script-Download from the [Releases page](https://github.com/NeoCircuit-Studios/fs-winehelper/releases).
+   Download `NS-Build.sh` in "Script-Download" from the [Releases page](https://github.com/NeoCircuit-Studios/fs-winehelper/releases).
 
    ### 2. 📂   Place it in the game's *(Optional)* folder.
 
